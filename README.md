@@ -64,7 +64,7 @@ te saldra el siguiente mensaje
 
 3.  presiona Control + click en el vinculo que aparece e inicia sesion en heroku.
 
-4.  crea la aplicación en heroku con el siguiente comando.
+4.  Una vez este la sesión iniciada, crea la aplicación en heroku con el siguiente comando.
 
         heroku create
 
