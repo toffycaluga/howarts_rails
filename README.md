@@ -49,7 +49,7 @@ Este es el repositorio de la aplicación web Howarts Rails, que muestra informac
     o
     rails s
 
-2.  Abre tu navegador web y visi
+2.  Abre tu navegador web y visita `http://localhost:3000` para ver la aplicacion en funcionamiento.
 
 ## Llevar a producción
 
@@ -60,7 +60,7 @@ Este es el repositorio de la aplicación web Howarts Rails, que muestra informac
         heroku login
 
 te saldra el siguiente mensaje
-![img de index](https://github.com/toffycaluga/howarts_rails/blob/main/app/assets/images/heroku_1.png)
+![img de consola heroku](https://github.com/toffycaluga/howarts_rails/blob/main/app/assets/images/heroku_1.png)
 
 3.  presiona Control + click en el vinculo que aparece e inicia sesion en heroku.
 
@@ -86,7 +86,9 @@ te saldra el siguiente mensaje
 
 y Listo disfruta de la app.
 
-ta `http://localhost:3000` para ver la aplicacion en funcionamiento.
+![img de consola heroku](https://github.com/toffycaluga/howarts_rails/blob/main/app/assets/images/heroku_1.png)
+
+9. ve a heroku y en tu app presiona el boton app para ir a su enlace.
 
 ## Contribución
 
