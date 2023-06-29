@@ -14,9 +14,7 @@ Este es el repositorio de la aplicación web Howarts Rails, que muestra informac
 
 1.  Clona este repositorio en tu máquina local:
 
-    ```shell
-    git clone https://github.com/tu_usuario/howarts_rails.git
-    ```
+        git clone https://github.com/tu_usuario/howarts_rails.git
 
 2.  Navega al directorio del proyecto:
 
@@ -51,9 +49,46 @@ Este es el repositorio de la aplicación web Howarts Rails, que muestra informac
     o
     rails s
 
-2.  Abre tu navegador web y visita `http://localhost:3000` para ver la aplicacion en funcionamiento.
+2.  Abre tu navegador web y visi
 
-##Contribución
+## Llevar a producción
+
+1.  Asegurate de tener la Herramienta de línea de comandos de Heroku (Heroku CLI).
+
+2.  inicia sesion en heroku:
+
+        heroku login
+
+te saldra el siguiente mensaje
+![img de index](https://github.com/toffycaluga/howarts_rails/blob/main/app/assets/images/heroku_1.png)
+
+3.  presiona Control + click en el vinculo que aparece e inicia sesion en heroku.
+
+4.  crea la aplicación en heroku con el siguiente comando.
+
+        heroku create
+
+5.  Enlaza el repo con la app de heroku.
+
+        heroku git:remote -a nombre-de-la-app
+
+6.  crea la base de datos en heroku.
+
+        heroku run rails db:create -a howarts-rails
+
+7.  corre las migraciones en heroku.
+
+        heroku run rails db:migrate -a howarts-rails
+
+8.  corre el seed en heroku.
+
+        heroku run rails db:seed -a howarts-rails
+
+y Listo disfruta de la app.
+
+ta `http://localhost:3000` para ver la aplicacion en funcionamiento.
+
+## Contribución
 
 Si deseas contribuir a este proyecto, sigue los siguientes pasos:
 
@@ -74,3 +109,5 @@ Si deseas contribuir a este proyecto, sigue los siguientes pasos:
 5.  Abre pull request en github.
 
 Recuerda reemplazar `tu_usuario` en el enlace del paso 1 con tu nombre de usuario de GitHub. Además, asegúrate de proporcionar la información correcta sobre la versión de Ruby y Ruby on Rails requerida en la sección de requisitos.
+
+⌨️ con ❤️ por [Toffy Caluga 🤡](https://github.com/toffycaluga)
