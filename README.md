@@ -1,6 +1,6 @@
 # Howarts Rails
 
-![img de index](https://github.com/toffycaluga/howarts_rails/tree/main/app/assets/images/howarts_rails_1.png)
+![img de index](https://github.com/toffycaluga/howarts_rails/blob/main/app/assets/images/howarts_rails_1.png)
 
 Este es el repositorio de la aplicación web Howarts Rails, que muestra información sobre los personajes de Harry Potter, incluyendo su ubicación y casa.
 
