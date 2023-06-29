@@ -84,11 +84,11 @@ te saldra el siguiente mensaje
 
         heroku run rails db:seed -a howarts-rails
 
-y Listo disfruta de la app.
-
-![img de consola heroku](https://github.com/toffycaluga/howarts_rails/blob/main/app/assets/images/heroku_1.png)
+![img de consola heroku](https://github.com/toffycaluga/howarts_rails/blob/main/app/assets/images/heroku_2.png)
 
 9. ve a heroku y en tu app presiona el boton app para ir a su enlace.
+
+y Listo disfruta de la app.
 
 ## Contribución
 
